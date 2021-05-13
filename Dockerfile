@@ -2,9 +2,7 @@ FROM node:latest
 
 RUN echo "Tryin to build my first application"
 
-COPY . /app
-
-WORKDIR /app
+COPY ..
 
 RUN npm install
 
